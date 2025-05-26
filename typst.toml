@@ -1,0 +1,13 @@
+[package]
+name =  "tnote"
+entrypoint = "lib.typ"
+version = "0.1.0"
+authors = [ "Chen Linxuan <me@black-desk.cn>"]
+license = "MIT"
+categories = ["book"]
+description = "一个用于笔记记录的 Typst 包。"
+
+[template]
+path = "template"
+entrypoint = "index.typ"
+thumbnail = "thumbnail.png"
